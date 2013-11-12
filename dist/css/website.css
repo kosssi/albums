@@ -1,0 +1,2497 @@
+/*!
+ * Sscank website
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ */
+
+/*
+ * Color
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ */
+
+.bgw {
+  background-color: #ffffff;
+}
+
+.bgb {
+  background-color: #000000;
+}
+
+.bgc0 {
+  background-color: #1abc9c;
+}
+
+.bgc0b {
+  background-color: #16a085;
+}
+
+.bgc1 {
+  background-color: #2ecc71;
+}
+
+.bgc1b {
+  background-color: #27ae60;
+}
+
+.bgc2 {
+  background-color: #3498db;
+}
+
+.bgc2b {
+  background-color: #2980b9;
+}
+
+.bgc3 {
+  background-color: #9b59b6;
+}
+
+.bgc3b {
+  background-color: #8e44ad;
+}
+
+.bgc4 {
+  background-color: #34495e;
+}
+
+.bgc4b {
+  background-color: #2c3e50;
+}
+
+.bgc5 {
+  background-color: #f1c40f;
+}
+
+.bgc5b {
+  background-color: #f39c12;
+}
+
+.bgc6 {
+  background-color: #e67e22;
+}
+
+.bgc6b {
+  background-color: #d35400;
+}
+
+.bgc7 {
+  background-color: #e74c3c;
+}
+
+.bgc7b {
+  background-color: #c0392b;
+}
+
+.bgc8 {
+  background-color: #ecf0f1;
+}
+
+.bgc8b {
+  background-color: #bdc3c7;
+}
+
+.bgc9 {
+  background-color: #95a5a6;
+}
+
+.bgc9b {
+  background-color: #7f8c8d;
+}
+
+.txtw {
+  color: #ffffff;
+}
+
+.txtb {
+  color: #000000;
+}
+
+.txtc0 {
+  color: #1abc9c;
+}
+
+.txtc0b {
+  color: #16a085;
+}
+
+.txtc1 {
+  color: #2ecc71;
+}
+
+.txtc1b {
+  color: #27ae60;
+}
+
+.txtc2 {
+  color: #3498db;
+}
+
+.txtc2b {
+  color: #2980b9;
+}
+
+.txtc3 {
+  color: #9b59b6;
+}
+
+.txtc3b {
+  color: #8e44ad;
+}
+
+.txtc4 {
+  color: #34495e;
+}
+
+.txtc4b {
+  color: #2c3e50;
+}
+
+.txtc5 {
+  color: #f1c40f;
+}
+
+.txtc5b {
+  color: #f39c12;
+}
+
+.txtc6 {
+  color: #e67e22;
+}
+
+.txtc6b {
+  color: #d35400;
+}
+
+.txtc7 {
+  color: #e74c3c;
+}
+
+.txtc7b {
+  color: #c0392b;
+}
+
+.txtc8 {
+  color: #ecf0f1;
+}
+
+.txtc8b {
+  color: #bdc3c7;
+}
+
+.txtc9 {
+  color: #95a5a6;
+}
+
+.txtc9b {
+  color: #7f8c8d;
+}
+
+.cw {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.cw a {
+  color: #ffffff;
+}
+
+.cb {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.cb a {
+  color: #000000;
+}
+
+.c0 {
+  color: #1abc9c;
+  background-color: #16a085;
+}
+
+.c0 a {
+  color: #1abc9c;
+}
+
+.c0b {
+  color: #16a085;
+  background-color: #1abc9c;
+}
+
+.c0b a {
+  color: #16a085;
+}
+
+.c1 {
+  color: #2ecc71;
+  background-color: #27ae60;
+}
+
+.c1 a {
+  color: #2ecc71;
+}
+
+.c1b {
+  color: #27ae60;
+  background-color: #2ecc71;
+}
+
+.c1b a {
+  color: #27ae60;
+}
+
+.c2 {
+  color: #3498db;
+  background-color: #2980b9;
+}
+
+.c2 a {
+  color: #3498db;
+}
+
+.c2b {
+  color: #2980b9;
+  background-color: #3498db;
+}
+
+.c2b a {
+  color: #2980b9;
+}
+
+.c3 {
+  color: #9b59b6;
+  background-color: #8e44ad;
+}
+
+.c3 a {
+  color: #9b59b6;
+}
+
+.c3b {
+  color: #8e44ad;
+  background-color: #9b59b6;
+}
+
+.c3b a {
+  color: #8e44ad;
+}
+
+.c4 {
+  color: #34495e;
+  background-color: #2c3e50;
+}
+
+.c4 a {
+  color: #34495e;
+}
+
+.c4b {
+  color: #2c3e50;
+  background-color: #34495e;
+}
+
+.c4b a {
+  color: #2c3e50;
+}
+
+.c5 {
+  color: #f1c40f;
+  background-color: #f39c12;
+}
+
+.c5 a {
+  color: #f1c40f;
+}
+
+.c5b {
+  color: #f39c12;
+  background-color: #f1c40f;
+}
+
+.c5b a {
+  color: #f39c12;
+}
+
+.c6 {
+  color: #e67e22;
+  background-color: #d35400;
+}
+
+.c6 a {
+  color: #e67e22;
+}
+
+.c6b {
+  color: #d35400;
+  background-color: #e67e22;
+}
+
+.c6b a {
+  color: #d35400;
+}
+
+.c7 {
+  color: #e74c3c;
+  background-color: #c0392b;
+}
+
+.c7 a {
+  color: #e74c3c;
+}
+
+.c7b {
+  color: #c0392b;
+  background-color: #e74c3c;
+}
+
+.c7b a {
+  color: #c0392b;
+}
+
+.c8 {
+  color: #ecf0f1;
+  background-color: #bdc3c7;
+}
+
+.c8 a {
+  color: #ecf0f1;
+}
+
+.c8b {
+  color: #bdc3c7;
+  background-color: #ecf0f1;
+}
+
+.c8b a {
+  color: #bdc3c7;
+}
+
+.c9 {
+  color: #95a5a6;
+  background-color: #7f8c8d;
+}
+
+.c9 a {
+  color: #95a5a6;
+}
+
+.c9b {
+  color: #7f8c8d;
+  background-color: #95a5a6;
+}
+
+.c9b a {
+  color: #7f8c8d;
+}
+
+/*
+ * Reset
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ *
+ * url : http://www.alsacreations.com/astuce/lire/36-reset-css.html
+ */
+
+/* base font-size corresponds to 10px and is adapted to rem unit */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 2em;
+  line-height: 1.5;
+  color: #000;
+  background-color: #fff;
+}
+
+html.fullscreen {
+  height: 100%;
+}
+
+html.fullscreen body {
+  min-height: 100%;
+}
+
+/* font-sizing for content */
+
+/* preserve vertical-rythm, thanks to http://soqr.fr/vertical-rhythm/ */
+
+p,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+td,
+th,
+label,
+textarea,
+caption,
+details,
+figure,
+hgroup {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+h1,
+.h1 {
+  font-size: 1.6em;
+}
+
+h2,
+.h2 {
+  font-size: 1.5em;
+}
+
+h3,
+.h3 {
+  font-size: 1.4em;
+}
+
+h4,
+.h4 {
+  font-size: 1.3em;
+}
+
+h5,
+.h5 {
+  font-size: 1.2em;
+}
+
+h6,
+.h6 {
+  font-size: 1.1em;
+}
+
+/* alternate font-sizing */
+
+.smaller {
+  font-size: 0.5em;
+}
+
+.small {
+  font-size: 0.6em;
+}
+
+.big {
+  font-size: 0.8em;
+}
+
+.bigger {
+  font-size: 0.9em;
+}
+
+.biggest {
+  font-size: 1em;
+}
+
+/* soft reset */
+
+html,
+body,
+textarea,
+figure,
+label {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+ul.unstyled {
+  list-style: none;
+}
+
+code,
+pre,
+samp,
+kbd {
+  font-family: consolas, 'DejaVu Sans Mono', courier, monospace;
+  line-height: 1em;
+  white-space: pre-wrap;
+}
+
+code,
+kbd,
+mark {
+  border-radius: 2px;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+i,
+b {
+  font-style: normal;
+  font-weight: normal;
+}
+
+kbd {
+  padding: 0 2px;
+  border: 1px solid #999;
+}
+
+code {
+  padding: 2px 4px;
+  color: #b11;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+mark {
+  padding: 2px 4px;
+  background: #ff0;
+}
+
+table {
+  margin-bottom: 1.5em;
+}
+
+/* avoid top margins on first content element */
+
+p:first-child,
+ul:first-child,
+ol:first-child,
+dl:first-child,
+blockquote:first-child,
+pre:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+
+/* avoid margins on nested elements */
+
+li p,
+li ul,
+li ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* max values */
+
+img,
+table,
+td,
+blockquote,
+code,
+pre,
+textarea,
+input,
+video {
+  max-width: 100%;
+}
+
+/* pictures */
+
+img {
+  height: auto;
+  vertical-align: middle;
+}
+
+/* Gmap3 max-width bug fix on images */
+
+.gmnoscreen img,
+.gmnoprint img {
+  max-width: none !important;
+}
+
+a img {
+  border: 0;
+}
+
+/* scripts */
+
+body > script {
+  display: none !important;
+}
+
+/* skip-links */
+
+.skip-links {
+  position: absolute;
+}
+
+.skip-links a {
+  position: absolute;
+  left: -7000px;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+  background: black;
+}
+
+.skip-links a:focus {
+  position: static;
+}
+
+/*
+ * Print
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ */
+
+/* quick print reset */
+
+@media print {
+  p,
+  blockquote {
+    orphans: 2;
+    widows: 2;
+  }
+  blockquote,
+  ul,
+  ol {
+    page-break-inside: avoid;
+  }
+  h1,
+  h2,
+  h3,
+  caption {
+    page-break-after: avoid;
+  }
+}
+
+/* -----------------------------
+         quick print reset
+   ----------------------------- */
+
+@media print {
+  * {
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  body {
+    width: auto !important;
+    margin: auto !important;
+    font-family: serif;
+    font-size: 12pt;
+    color: #333 !important;
+    background-color: #fff !important;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  blockquote,
+  ul,
+  ol {
+    margin: auto !important;
+    color: #000 !important;
+  }
+  .print {
+    /* displaying .print elements */
+  
+    display: block;
+  }
+  img {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+  p,
+  blockquote {
+    /* no orphans */
+  
+    orphans: 3;
+    /* no widows */
+  
+    widows: 3;
+  }
+  blockquote,
+  ul,
+  ol {
+    /* no breaks inside these elements */
+  
+    page-break-inside: avoid;
+  }
+  h1 {
+    /* page break before main headers */
+  
+    page-break-before: always;
+  }
+  h1,
+  h2,
+  h3,
+  caption {
+    /* no breaks after these elements */
+  
+    page-break-after: avoid;
+  }
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+  a[href]:after {
+    /* displaying URLs */
+  
+    content: " (" attr(href) ")";
+  }
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+}
+
+/*
+ * Spacing
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ *
+ * p, m = padding, margin
+ * a, t, r, b, l, v, h = all, top, right, bottom, left, vertical(left, right), horizontal(top, bottom)
+ * n, s, m, l = none(0), small(10px), medium(20px), large(30px)
+ */
+
+/*
+ * Margin
+ */
+
+.man {
+  margin: 0;
+}
+
+.mas {
+  margin: 20px;
+}
+
+.mam {
+  margin: 40px;
+}
+
+.mal {
+  margin: 60px;
+}
+
+.mtn {
+  margin-top: 0;
+}
+
+.mts {
+  margin-top: 20px;
+}
+
+.mtm {
+  margin-top: 40px;
+}
+
+.mtl {
+  margin-top: 60px;
+}
+
+.mrn {
+  margin-right: 0;
+}
+
+.mrs {
+  margin-right: 20px;
+}
+
+.mrm {
+  margin-right: 40px;
+}
+
+.mrl {
+  margin-right: 60px;
+}
+
+.mbn {
+  margin-bottom: 0;
+}
+
+.mbs {
+  margin-bottom: 20px;
+}
+
+.mbm {
+  margin-bottom: 40px;
+}
+
+.mbl {
+  margin-bottom: 60px;
+}
+
+.mln {
+  margin-left: 0;
+}
+
+.mls {
+  margin-left: 20px;
+}
+
+.mlm {
+  margin-left: 40px;
+}
+
+.mll {
+  margin-left: 60px;
+}
+
+.mvn {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mvs {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mvm {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.mvl {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.mhn {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.mhs {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.mhm {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.mhl {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+/*
+ * Padding
+ */
+
+.pan {
+  padding: 0;
+}
+
+.pas {
+  padding: 20px;
+}
+
+.pam {
+  padding: 40px;
+}
+
+.pal {
+  padding: 60px;
+}
+
+.ptn {
+  padding-top: 0;
+}
+
+.pts {
+  padding-top: 20px;
+}
+
+.ptm {
+  padding-top: 40px;
+}
+
+.ptl {
+  padding-top: 60px;
+}
+
+.prn {
+  padding-right: 0;
+}
+
+.prs {
+  padding-right: 20px;
+}
+
+.prm {
+  padding-right: 40px;
+}
+
+.prl {
+  padding-right: 60px;
+}
+
+.pbn {
+  padding-bottom: 0;
+}
+
+.pbs {
+  padding-bottom: 20px;
+}
+
+.pbm {
+  padding-bottom: 40px;
+}
+
+.pbl {
+  padding-bottom: 60px;
+}
+
+.pln {
+  padding-left: 0;
+}
+
+.pls {
+  padding-left: 20px;
+}
+
+.plm {
+  padding-left: 40px;
+}
+
+.pll {
+  padding-left: 60px;
+}
+
+.pvn {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.pvs {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pvm {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pvl {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.phn {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.phs {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.phm {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.phl {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+/*
+ * Alignment
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ *
+ * r, l, c, h = right, left, center, hidden
+ */
+
+.hidden {
+  display: none;
+}
+
+.posr {
+  position: relative;
+}
+
+.posa {
+  position: absolute;
+}
+
+.posf {
+  position: fixed;
+}
+
+.txtr {
+  text-align: right;
+}
+
+.txtl {
+  text-align: left;
+}
+
+.txtc {
+  text-align: center;
+}
+
+.txth {
+  text-indent: -9999px;
+}
+
+.left {
+  float: left;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.right {
+  float: right;
+}
+
+.box {
+  position: relative;
+}
+
+.box .top {
+  top: 0;
+}
+
+.box .bottom {
+  bottom: 0;
+}
+
+.box .bottom,
+.box .top {
+  position: absolute;
+}
+
+.box .bottom.left,
+.box .top.left {
+  left: 0;
+  float: none;
+}
+
+.box .bottom.center,
+.box .top.center {
+  right: 0;
+  left: 0;
+}
+
+.box .bottom.right,
+.box .top.right {
+  right: 0;
+  float: none;
+}
+
+.box5 {
+  position: relative;
+}
+
+.box5 > * {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex: initial;
+     -moz-flex: initial;
+      -ms-flex: initial;
+          flex: initial;
+}
+
+.box5 .top {
+  -webkit-align-items: flex-start;
+     -moz-align-items: flex-start;
+      -ms-align-items: flex-start;
+          align-items: flex-start;
+}
+
+.box5 .middle {
+  -webkit-align-items: center;
+     -moz-align-items: center;
+      -ms-align-items: center;
+          align-items: center;
+}
+
+.box5 .bottom {
+  -webkit-align-items: flex-end;
+     -moz-align-items: flex-end;
+      -ms-align-items: flex-end;
+          align-items: flex-end;
+}
+
+.box5 .left {
+  float: none;
+  -webkit-justify-content: flex-start;
+     -moz-justify-content: flex-start;
+      -ms-justify-content: flex-start;
+          justify-content: flex-start;
+}
+
+.box5 .center {
+  -webkit-justify-content: center;
+     -moz-justify-content: center;
+      -ms-justify-content: center;
+          justify-content: center;
+}
+
+.box5 .right {
+  float: none;
+  -webkit-justify-content: flex-end;
+     -moz-justify-content: flex-end;
+      -ms-justify-content: flex-end;
+          justify-content: flex-end;
+}
+
+.box5 .vertical {
+  -webkit-flex-direction: column;
+     -moz-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box5 .horizontal {
+  -webkit-flex-direction: row;
+     -moz-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/*
+ * Flexbox
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ */
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-h {
+  -webkit-box-orient: horizontal;
+     -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-v {
+  -webkit-box-orient: vertical;
+     -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-fluid {
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+     -moz-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.flex-start {
+  -webkit-box-ordinal-group: -1;
+     -moz-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  -webkit-order: -1;
+     -moz-order: -1;
+          order: -1;
+}
+
+.flex-mid {
+  -webkit-box-ordinal-group: 1;
+     -moz-box-ordinal-group: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1;
+     -moz-order: 1;
+          order: 1;
+}
+
+.flex-end {
+  -webkit-box-ordinal-group: 42;
+     -moz-box-ordinal-group: 42;
+  -ms-flex-order: 42;
+  -webkit-order: 42;
+     -moz-order: 42;
+          order: 42;
+}
+
+/*
+ * Form
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ */
+
+.btn {
+  display: inline-block;
+}
+
+/* forms items */
+
+label {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+legend {
+  white-space: normal;
+  border: 0;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+textarea {
+  min-height: 5em;
+  /* Removes default vertical scrollbar on empty textarea in IE6/7/8/9 */
+
+  overflow: auto;
+  vertical-align: top;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  /* Corrects inner spacing displayed oddly in IE7 */
+
+  *overflow: visible;
+  cursor: pointer;
+  /* clickable input types in iOS */
+
+  -webkit-appearance: button;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  *width: 13px;
+  /* Corrects excess space around these inputs in IE7 */
+
+  *height: 13px;
+  /* Corrects excess space around these inputs in IE8/9 */
+
+  padding: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
+/* if select styling bugs on WebKit */
+
+/* select { -webkit-appearance: none; } */
+
+/* 'x' appears on right of search input when text is entered. This removes it */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+::-webkit-input-placeholder {
+  color: #777;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #777;
+}
+
+/* Removes inner padding and border in FF3+ */
+
+button::-moz-focus-inner,
+input[type='button']::-moz-focus-inner,
+input[type='reset']::-moz-focus-inner,
+input[type='submit']::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* -----------------------------
+             forms
+   ----------------------------- */
+
+form,
+fieldset {
+  border: none;
+}
+
+input,
+button,
+select,
+label,
+.btn {
+  font-family: inherit;
+  font-size: inherit;
+  /* @bugfix alignment */
+
+  vertical-align: middle;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  resize: vertical;
+}
+
+/*
+ * Grid
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ */
+
+[class^=grid]:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* direct childrens are floating */
+
+[class^=grid] > * {
+  float: left;
+}
+
+.grid2 > * {
+  width: 49.25%;
+}
+
+.grid3 > * {
+  width: 32.333333333333336%;
+}
+
+.grid4 > * {
+  width: 23.875%;
+}
+
+.grid5 > * {
+  width: 18.8%;
+}
+
+.grid6 > * {
+  width: 15.416666666666666%;
+}
+
+.grid2 > * + *,
+.grid3 > * + *,
+.grid4 > * + *,
+.grid5 > * + *,
+.grid6 > * + *,
+.grid2-1 > * + *,
+.grid1-2 > * + *,
+.grid3-1 > * + *,
+.grid1-3 > * + * {
+  margin-left: 1.5%;
+}
+
+.grid2-1 > *,
+.grid1-2 > * {
+  width: 32.833333333333336%;
+}
+
+.grid2-1 > :first-child,
+.grid1-2 > * + * {
+  width: 65.66666666666667%;
+}
+
+.grid3-1 > *,
+.grid1-3 > * {
+  width: 24.625%;
+}
+
+.grid3-1 > :first-child,
+.grid1-3 > * + * {
+  width: 73.875%;
+}
+
+/* -----------------------------
+            autogrids
+   ----------------------------- */
+
+/* auto-justified equal grids */
+
+[class*="autogrid"] {
+  font-size: 1px;
+  /* whitespace fi xpart 1 */
+
+  letter-spacing: -1px;
+  text-align: justify;
+}
+
+[class*="autogrid"]:after {
+  display: inline-block;
+  width: 100%;
+  content: "";
+}
+
+[class*="autogrid"] > * {
+  display: inline-block;
+  *display: inline;
+  font-size: 20em;
+  font-size: 2rem;
+  /* whitespace fix part 2 */
+
+  letter-spacing: normal;
+  text-align: left;
+  vertical-align: top;
+  /* ie6 / ie7 hack */
+
+  *zoom: 1;
+}
+
+.autogrid2 > * {
+  width: 49%;
+}
+
+.autogrid3 > * {
+  width: 32%;
+}
+
+.autogrid4 > * {
+  width: 23.6%;
+}
+
+.autogrid5 > * {
+  width: 19%;
+}
+
+.autogrid6 > * {
+  width: 15%;
+}
+
+.autogrid8 > * {
+  width: 10.8%;
+}
+
+.autogrid10 > * {
+  width: 9%;
+}
+
+.autogrid12 > * {
+  width: 6.4%;
+}
+
+/* Responsiv-o-matic */
+
+@media (max-width: 1280px) {
+  .autogrid5 > *,
+  .autogrid6 > *,
+  .autogrid8 > *,
+  .autogrid10 > *,
+  .autogrid12 > * {
+    width: 32%;
+  }
+}
+
+@media (max-width: 768px) {
+  .autogrid3 > *,
+  .autogrid4 > *,
+  .autogrid5 > *,
+  .autogrid6 > *,
+  .autogrid8 > *,
+  .autogrid10 > *,
+  .autogrid12 > * {
+    width: 49%;
+  }
+}
+
+@media (max-width: 480px) {
+  [class*="autogrid"] > * {
+    width: 100%;
+  }
+}
+
+/*
+ * Icon
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ */
+
+.icon {
+  display: inline-block;
+}
+
+.icon:before,
+.icon > li:before,
+.icon.after:after,
+.icon.after > li:after {
+  position: relative;
+  top: -0.1em;
+  display: inline-block;
+  margin: 0 0.3em 0 0;
+  font: 1.4em/1 sans-serif;
+  color: #000;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
+  content: "";
+  speak: none;
+}
+
+@media (min-device-width: 768px) {
+  .icon:before,
+  .icon > li:before,
+  .icon.after:after,
+  .icon.after > li:after {
+    font: 1em/0.6 sans-serif;
+    -webkit-transform: rotateZ(0.05deg);
+  }
+}
+
+.icon.after:after,
+.icon.after > li:after {
+  margin: 0 0 0 8px;
+}
+
+ul.icon {
+  display: block;
+}
+
+ul.icon > li {
+  list-style: none;
+}
+
+ul.icon:before,
+ul.icon.after:after {
+  content: "";
+}
+
+.icon.after:before,
+.icon.after > li:before {
+  content: "" !important;
+}
+
+.icon-rate:before,
+.icon-rate > li:before,
+.icon-rate.after:after,
+.icon-rate.after > li:after {
+  content: "\2605";
+}
+
+.icon-unrate:before,
+.icon-unrate > li:before,
+.icon-unrate.after:after,
+.icon-unrate.after > li:after {
+  content: "\2606";
+}
+
+.icon-check:before,
+.icon-check > li:before,
+.icon-check.after:after,
+.icon-check.after > li:after {
+  content: "\2713";
+}
+
+.icon-uncheck:before,
+.icon-uncheck > li:before,
+.icon-uncheck.after:after,
+.icon-uncheck.after > li:after {
+  content: "\2717";
+}
+
+.icon-cloud:before,
+.icon-cloud > li:before,
+.icon-cloud.after:after,
+.icon-cloud.after > li:after {
+  content: "\2601";
+}
+
+.icon-dl:before,
+.icon-dl > li:before,
+.icon-dl.after:after,
+.icon-dl.after > li:after {
+  font-weight: bold;
+  content: "\21E3";
+}
+
+.icon-cross:before,
+.icon-cross > li:before,
+.icon-cross.after:after,
+.icon-cross.after > li:after {
+  font-weight: bold;
+  content: "\2716";
+}
+
+.icon-arrow1:before,
+.icon-arrow1 > li:before,
+.icon-arrow1.after:after,
+.icon-arrow1.after > li:after {
+  position: relative;
+  top: -0.15em;
+  content: "\2192";
+}
+
+.icon-arrow2:before,
+.icon-arrow2 > li:before,
+.icon-arrow2.after:after,
+.icon-arrow2.after > li:after {
+  content: "\279E";
+}
+
+.icon-arrow3:before,
+.icon-arrow3 > li:before,
+.icon-arrow3.after:after,
+.icon-arrow3.after > li:after {
+  content: "\279A";
+}
+
+.icon-bracket1:before,
+.icon-bracket1 > li:before,
+.icon-bracket1.after:after,
+.icon-bracket1.after > li:after {
+  position: relative;
+  top: -0.15em;
+  font-size: 1.6em;
+  font-weight: bold;
+  content: "\2039";
+}
+
+.icon-bracket2:before,
+.icon-bracket2 > li:before,
+.icon-bracket2.after:after,
+.icon-bracket2.after > li:after {
+  position: relative;
+  top: -0.15em;
+  font-size: 1.6em;
+  font-weight: bold;
+  content: "\203A";
+}
+
+.icon-up:before,
+.icon-up > li:before,
+.icon-up.after:after,
+.icon-up.after > li:after {
+  content: "\25B2";
+}
+
+.icon-down:before,
+.icon-down > li:before,
+.icon-down.after:after,
+.icon-down.after > li:after {
+  content: "\25BC";
+}
+
+.icon-bull:before,
+.icon-bull > li:before,
+.icon-bull.after:after,
+.icon-bull.after > li:after {
+  top: -0.05em;
+  font-size: 1.2em;
+  content: "\2022";
+}
+
+.icon-bull2:before,
+.icon-bull2 > li:before,
+.icon-bull2.after:after,
+.icon-bull2.after > li:after {
+  top: -0.05em;
+  content: "\25E6";
+}
+
+.icon-bull3:before,
+.icon-bull3 > li:before,
+.icon-bull3.after:after,
+.icon-bull3.after > li:after {
+  top: -0.05em;
+  font-size: 1.6em;
+  content: "\2023";
+}
+
+.icon-nav:before,
+.icon-nav > li:before,
+.icon-nav.after:after,
+.icon-nav.after > li:after {
+  font-weight: bold;
+  content: "\2261";
+}
+
+.icon-losange:before,
+.icon-losange > li:before,
+.icon-losange.after:after,
+.icon-losange.after > li:after {
+  content: "\25C6";
+}
+
+.icon-asteri:before,
+.icon-asteri > li:before,
+.icon-asteri.after:after,
+.icon-asteri.after > li:after {
+  font-weight: bold;
+  content: "\2731";
+}
+
+.icon-mail:before,
+.icon-mail > li:before,
+.icon-mail.after:after,
+.icon-mail.after > li:after {
+  top: -0.05em;
+  font-size: 1.6em;
+  content: "\2709";
+}
+
+ol.styled {
+  counter-reset: styled;
+}
+
+ol.styled > li {
+  margin-bottom: .3em;
+  list-style-type: none;
+  counter-increment: styled;
+}
+
+ol.styled > li:before {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding: 2px;
+  margin-right: .4em;
+  font-size: .9em;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  text-indent: -0.1em;
+  vertical-align: middle;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  content: counter(styled);
+}
+
+/*
+ * Layout
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ */
+
+/* switching box model for all elements */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* float layout */
+
+/* module, gains superpower "BFC" Block Formating Context */
+
+.mod {
+  overflow: hidden;
+}
+
+/* blocks that needs to be placed under floats */
+
+.clear,
+.line,
+.row {
+  clear: both;
+}
+
+/* blocks that must contain floats */
+
+.clearfix:after,
+.line:after,
+.mod:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* table layout */
+
+.row {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.row > *,
+.col {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.row > *.middle,
+.col.middle {
+  vertical-align: middle;
+}
+
+.row > *.hidden,
+.col.hidden {
+  display: none;
+}
+
+/* inline-block */
+
+.inbl {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*
+ * Responsive
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ */
+
+/* -----------------------------
+      viewport fixing for RWD
+   ----------------------------- */
+
+@-webkit-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@-moz-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@-ms-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@-o-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+/* -----------------------------
+     desktop and retina medias
+   ----------------------------- */
+
+@media (min-width: 768px) {
+  
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  
+}
+
+/* ----------------------------------
+    Responsive large / medium / tiny
+   ---------------------------------- */
+
+@media (min-width: 1280px) {
+  .large-hidden,
+  .tablet-hidden {
+    display: none !important;
+  }
+  .large-visible {
+    display: block !important;
+  }
+  .large-no-float {
+    float: none;
+  }
+  .large-inbl {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .large-row {
+    display: table;
+    width: 100% !important;
+    table-layout: fixed;
+  }
+  .large-col {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .large-w25 {
+    width: 25% !important;
+  }
+  .large-w33 {
+    width: 33.3333% !important;
+  }
+  .large-w50 {
+    width: 50% !important;
+  }
+  .large-w66 {
+    width: 66.6666% !important;
+  }
+  .large-w75 {
+    width: 75% !important;
+  }
+  .large-w100 {
+    display: block !important;
+    float: none !important;
+    width: auto !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    clear: none !important;
+    border: 0;
+  }
+  .large-ma0 {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .w600p,
+  .w700p,
+  .w800p,
+  .w960p,
+  .mw960p,
+  .small-wauto {
+    float: none;
+    width: auto;
+  }
+  .small-hidden,
+  .tablet-hidden {
+    display: none !important;
+  }
+  .small-visible {
+    display: block !important;
+  }
+  .small-no-float {
+    float: none;
+  }
+  .small-inbl {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .small-row {
+    display: table !important;
+    width: 100% !important;
+    table-layout: fixed !important;
+  }
+  .small-col {
+    display: table-cell !important;
+    vertical-align: top !important;
+  }
+  div,
+  textarea,
+  table,
+  td,
+  th,
+  code,
+  pre,
+  samp {
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+         -o-hyphens: auto;
+            hyphens: auto;
+    word-wrap: break-word;
+  }
+  .small-w25 {
+    width: 25% !important;
+  }
+  .small-w33 {
+    width: 33.3333% !important;
+  }
+  .small-w50 {
+    width: 50% !important;
+  }
+  .small-w66 {
+    width: 66.6666% !important;
+  }
+  .small-w75 {
+    width: 75% !important;
+  }
+  .small-w100 {
+    display: block !important;
+    float: none !important;
+    width: auto !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    clear: none !important;
+    border: 0;
+  }
+  .small-ma0 {
+    margin: 0 !important;
+  }
+  .grid4 > * {
+    width: 49.25%;
+  }
+  .grid4 > :first-child + * + * {
+    margin-left: 0;
+  }
+  .grid6 > * {
+    width: 32.333333333333336%;
+  }
+  .grid6 > :first-child + * + * + * {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .mod,
+  .col,
+  fieldset {
+    display: block !important;
+    float: none !important;
+    width: auto !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    clear: none !important;
+    border: 0;
+  }
+  .w300p,
+  .w400p,
+  .w500p {
+    float: none;
+    width: auto;
+  }
+  .row {
+    display: block !important;
+    width: 100% !important;
+  }
+  .tiny-hidden,
+  .phone-hidden {
+    display: none !important;
+  }
+  .tiny-visible {
+    display: block !important;
+  }
+  .tiny-no-float {
+    float: none;
+  }
+  .tiny-inbl {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .tiny-row {
+    display: table !important;
+    width: 100% !important;
+    table-layout: fixed !important;
+  }
+  .tiny-col {
+    display: table-cell !important;
+    vertical-align: top !important;
+  }
+  th,
+  td {
+    display: block !important;
+    width: auto !important;
+    text-align: left !important;
+  }
+  thead {
+    display: none;
+  }
+  .tiny-w25 {
+    width: 25% !important;
+  }
+  .tiny-w33 {
+    width: 33.3333% !important;
+  }
+  .tiny-w50 {
+    width: 50% !important;
+  }
+  .tiny-w66 {
+    width: 66.6666% !important;
+  }
+  .tiny-w75 {
+    width: 75% !important;
+  }
+  .tiny-w100 {
+    display: block !important;
+    float: none !important;
+    width: auto !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    clear: none !important;
+    border: 0;
+  }
+  .tiny-ma0 {
+    margin: 0 !important;
+  }
+}
+
+/* orientation iOS font-size fix */
+
+@media (orientation: landscape) and (max-device-width: 768px) {
+  html,
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+/*
+ * Table
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ */
+
+table,
+.table {
+  max-width: 100%;
+  vertical-align: top;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+table {
+  width: 100%;
+}
+
+.table {
+  display: table;
+}
+
+table#recaptcha_table,
+table.table-auto {
+  table-layout: auto;
+}
+
+caption {
+  padding: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+table {
+  border: 1px solid #ccc;
+}
+
+tr > * + * {
+  border-left: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: .3em .8em;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+td {
+  color: #333;
+}
+
+/* alternate tables */
+
+.alternate {
+  border: 0;
+}
+
+.alternate tbody {
+  border: 1px solid #ccc;
+}
+
+.alternate thead tr > * + * {
+  border-left: 0;
+}
+
+.alternate tbody tr > * + * {
+  border-left: 1px solid #ccc;
+}
+
+/* alternate-vert tables */
+
+.alternate-vert {
+  border: 0;
+  border-right: 1px solid #ccc;
+}
+
+.alternate-vert tr > :first-child {
+  border-bottom: 0;
+}
+
+.alternate-vert tr > * + * {
+  border-top: 1px solid #ccc;
+}
+
+/* striped tables */
+
+.striped tbody tr:nth-child(odd) {
+  background: #eee;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* striped-vert tables */
+
+.striped-vert tr > :first-child {
+  background: #eee;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/*
+ * Dimension
+ *
+ * By kosssi (Simon Constans) CC-BY 3.0
+ * Fork of KNACSS (Raphael Goetter, Alsacreations) : http://www.knacss.com/
+ */
+
+/*
+ * Width
+ */
+
+.w10 {
+  width: 10%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w33 {
+  width: 33.3333%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w66 {
+  width: 66.6666%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w50p {
+  width: 50px;
+}
+
+.w100p {
+  width: 100px;
+}
+
+.w150p {
+  width: 150px;
+}
+
+.w200p {
+  width: 200px;
+}
+
+.w300p {
+  width: 300px;
+}
+
+.w400p {
+  width: 400px;
+}
+
+.w500p {
+  width: 500px;
+}
+
+.w600p {
+  width: 600px;
+}
+
+.w700p {
+  width: 700px;
+}
+
+.w800p {
+  width: 800px;
+}
+
+.w960p {
+  width: 960px;
+}
+
+.mw960p {
+  max-width: 960px;
+}
+
+/*
+ * Height
+ */
+
+.h10 {
+  height: 10%;
+}
+
+.h20 {
+  height: 20%;
+}
+
+.h25 {
+  height: 25%;
+}
+
+.h30 {
+  height: 30%;
+}
+
+.h33 {
+  height: 33.3333%;
+}
+
+.h40 {
+  height: 40%;
+}
+
+.h50 {
+  height: 50%;
+}
+
+.h60 {
+  height: 60%;
+}
+
+.h66 {
+  height: 66.6666%;
+}
+
+.h70 {
+  height: 70%;
+}
+
+.h75 {
+  height: 75%;
+}
+
+.h80 {
+  height: 80%;
+}
+
+.h90 {
+  height: 90%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.h50p {
+  height: 50px;
+}
+
+.h100p {
+  height: 100px;
+}
+
+.h150p {
+  height: 150px;
+}
+
+.h200p {
+  height: 200px;
+}
+
+.h300p {
+  height: 300px;
+}
+
+.h400p {
+  height: 400px;
+}
+
+.h500p {
+  height: 500px;
+}
+
+.h600p {
+  height: 600px;
+}
+
+.h700p {
+  height: 700px;
+}
+
+.h800p {
+  height: 800px;
+}
+
+.h960p {
+  height: 960px;
+}
+
+div.conteneur {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+div.bloc {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  margin: 0 10px;
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid #fff;
+}

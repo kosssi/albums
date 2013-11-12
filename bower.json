@@ -1,0 +1,26 @@
+{
+    "name": "sscank-website",
+    "version": "0.1.0",
+    "homepage": "sscank.sconstans.fr",
+    "bugs": "https://github.com/kosssi/sscank/issues",
+    "author": {
+        "name": "Simon Constans",
+        "email": "kosssi@gmail.com",
+        "url": "http://sconstans.fr"
+    },
+    "description": "Simple and lightweight CSS framework",
+    "keywords": [
+        "framework",
+        "less",
+        "css"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:kosssi/sscank.git"
+    },
+    "license": "CC-BY 3.0",
+    "dependencies": {
+        "sscank": "~0.1.1",
+        "jquery": "~2.0.3"
+    }
+}

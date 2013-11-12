@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html{% if page.htmlClass %} class="{{ page.htmlClass }}"{% endif %}>
+    <head>
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+        <link type="text/css" href="/dist/css/sscank-website.css" rel="stylesheet">
+        <meta charset="utf-8">
+    </head>
+    <body{% if page.bodyClass %} class="{{ page.bodyClass }}"{% endif %}>
+        {{ content }}
+    </body>
+</html>

@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: dimgrey;
+    overflow: hidden;
+}
+
+.clearfix:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.album {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.album li {
+    width: 100%;
+    height: 100%;
+    /*display: inline-block;*/
+    background: none no-repeat center fixed;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}

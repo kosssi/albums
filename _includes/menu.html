@@ -1,0 +1,13 @@
+<nav class="pal">
+    <h2 class="txtc h1"><a href="/">{{ site.title }}</a></h2>
+    <ul class="unstyled">
+        {% for entry in site.posts %}
+            <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+        {% endfor %}
+    </ul>
+    <ul class="mbl unstyled">
+        <li>{{ site.author }}</li>
+        <li>github: <a href="{{ site.githubUrl }}">{{ site.pseudo }}</a></li>
+        <li>{{ site.email }}</li>
+    </ul>
+</nav>
